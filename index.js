@@ -4,5 +4,5 @@ function findMatching (drivers, name) {
 }
 
 function fuzzyMatch (drivers, substring) {
-  return drivers.filter(function (driver) {return driver.toLowerCase().startsWith(substring.toLowerCase(); });
+  return drivers.filter(function (driver) {return driver.toLowerCase().startsWith(substring.toLowerCase()); });
 }
